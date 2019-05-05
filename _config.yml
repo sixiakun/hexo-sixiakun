@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 司夏坤的个人博客
+title: 迈宇的个人博客
 subtitle: 我思故我在
-description: 司夏坤的个人博客，用于记录巩固前端知识，及日常生活所见所得
-keywords: 司夏坤 个人博客 前端 js
-author: 司夏坤
+description: 迈宇的个人博客，用于记录巩固前端知识，及日常生活所见所得
+keywords: 迈宇 个人博客 前端 js
+author: 迈宇
 language: zh-CN
 timezone:
 
@@ -43,16 +43,16 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -82,7 +82,6 @@ deploy:
   repo: git@github.com:sixiakun/sixiakun.github.io.git
   branch: master
   message: 来自hexo-sixiakun的提交
-
 
 jsonContent:
   meta: false
